@@ -1,0 +1,65 @@
+*:focus {
+    outline: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.5;
+    min-height: 100vh;
+    background: url('/simple_session/images/background.jpg');
+    flex-direction: column;
+}
+
+.roboto-regular {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: normal;
+}
+
+.main {
+    background-color: rgba(34,34,34,0.8);
+    border-radius: 15px;
+    box-shadow: 0 0 40px #D99923;
+    padding: 10px 20px;
+    transition: transform 0.2s;
+    width: 300px;
+    text-align: center;
+}
+
+input {
+    background: transparent;
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    color: #D9AB23;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+button {
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+    color: #222;
+    cursor: pointer;
+    background-color: #D99923;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
